@@ -1,14 +1,14 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta property="og:title" content="The Hot | The 7-Figure Dropshipper's AI Prompt">
-    <meta property="og:description" content="Part 1: Product Hunter - Premium AI Prompt Kit by THE HOT">
+    <meta property="og:description" content="Part 1: Product Hunter - Master the art of viral product selection with engineered AI algorithms.">
     <meta property="og:type" content="article">
     <meta property="og:site_name" content="The Hot">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="The Hot | Part 1: Product Hunter">
-    <meta name="twitter:description" content="Master the art of product hunting with engineered AI algorithms.">
+    <meta name="twitter:description" content="Identify winners before they peak with the The Hot AI Prompt kit.">
+    <meta name="twitter:site" content="@TheHot_Official">
     
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -41,12 +41,41 @@
         .cover-title { font-size: clamp(2rem, 8vw, 5rem); font-weight: 900; line-height: 1.1; margin-bottom: 1.5rem; background: linear-gradient(135deg, #ffffff 0%, var(--gold) 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; }
         .cover-main { font-size: clamp(3rem, 15vw, 10rem); font-weight: 900; line-height: 0.9; margin: 2rem 0; color: var(--gold); text-shadow: 0 0 40px rgba(212, 175, 55, 0.5); letter-spacing: 0.05em; }
         .cover-brand { font-size: clamp(1.2rem, 3vw, 1.8rem); letter-spacing: 0.5em; color: var(--text-secondary); margin-top: 3rem; font-weight: 300; }
+        .marble-divider { width: 100%; height: 200px; background: linear-gradient(135deg, rgba(212, 175, 55, 0.1) 0%, rgba(10, 10, 10, 0.8) 25%, rgba(74, 158, 255, 0.1) 50%, rgba(10, 10, 10, 0.8) 75%, rgba(212, 175, 55, 0.1) 100%); position: relative; overflow: hidden; }
+        .module-title { position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); font-size: clamp(2rem, 5vw, 3.5rem); font-weight: 700; text-align: center; color: var(--gold); text-shadow: 0 0 30px rgba(212, 175, 55, 0.6); z-index: 2; }
         .container { max-width: 900px; margin: 0 auto; padding: 4rem 2rem; }
-        .section { margin-bottom: 6rem; opacity: 1; transform: translateY(0); }
+        .section { margin-bottom: 6rem; opacity: 1; transform: translateY(0); } /* 已修正透明度以確保顯示 */
         .section-title { font-size: clamp(2rem, 4vw, 3rem); font-weight: 700; margin-bottom: 2rem; color: var(--gold); }
-        .glass-card { background: var(--card-bg); backdrop-filter: blur(10px); border: 1px solid rgba(212, 175, 55, 0.2); border-radius: 16px; padding: 2.5rem; margin-bottom: 2rem; }
+        .section-content { font-size: 1.1rem; line-height: 1.8; color: var(--text-secondary); margin-bottom: 2rem; }
+        .glass-card { background: var(--card-bg); backdrop-filter: blur(10px); border: 1px solid rgba(212, 175, 55, 0.2); border-radius: 16px; padding: 2.5rem; margin-bottom: 2rem; transition: transform 0.3s ease, box-shadow 0.3s ease; }
+        .card-header { display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 1.5rem; flex-wrap: wrap; gap: 1rem; }
+        .card-number { font-size: 2.5rem; font-weight: 900; color: var(--gold); opacity: 0.3; line-height: 1; }
+        .card-title { font-size: 1.8rem; font-weight: 700; color: var(--text-primary); flex: 1; min-width: 200px; }
+        .card-goal { background: rgba(74, 158, 255, 0.1); border-left: 3px solid var(--blue-accent); padding: 1rem 1.5rem; margin-bottom: 1.5rem; border-radius: 8px; }
+        .code-container { position: relative; margin: 1.5rem 0; }
+        .code-header { display: flex; justify-content: space-between; align-items: center; background: rgba(0, 0, 0, 0.5); padding: 0.75rem 1.5rem; border-radius: 12px 12px 0 0; border: 1px solid rgba(212, 175, 55, 0.2); }
+        .code-block { background: #0d0d0d; border: 1px solid rgba(212, 175, 55, 0.2); border-radius: 0 0 12px 12px; padding: 1.5rem; overflow-x: auto; font-size: 0.95rem; line-height: 1.6; color: #e0e0e0; }
+        .copy-btn { background: var(--gold); color: var(--dark-bg); border: none; padding: 0.5rem 1.5rem; border-radius: 6px; font-weight: 600; cursor: pointer; }
+        .styled-list { list-style: none; padding-left: 0; margin: 1.5rem 0; }
+        .styled-list li { position: relative; padding-left: 2rem; margin-bottom: 1rem; color: var(--text-secondary); }
+        .styled-list li::before { content: '→'; position: absolute; left: 0; color: var(--gold); font-weight: 700; }
+        .toc-container { position: fixed; right: 2rem; top: 50%; transform: translateY(-50%); background: var(--card-bg); backdrop-filter: blur(10px); border: 1px solid rgba(212, 175, 55, 0.2); border-radius: 12px; padding: 1.5rem; max-width: 250px; z-index: 100; transition: opacity 0.3s ease; }
+        .back-to-top { position: fixed; bottom: 2rem; right: 2rem; width: 50px; height: 50px; background: var(--gold); color: var(--dark-bg); border-radius: 50%; display: flex; align-items: center; justify-content: center; cursor: pointer; opacity: 0; transition: all 0.3s ease; border: none; }
         .conclusion-page { min-height: 100vh; display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center; padding: 4rem 2rem; position: relative; background: linear-gradient(135deg, #0a0a0a 0%, #1a1a2e 100%); }
+        .conclusion-title { font-size: clamp(2.5rem, 6vw, 4rem); font-weight: 900; color: var(--gold); margin-bottom: 2rem; }
+        .conclusion-text { font-size: 1.3rem; line-height: 1.8; color: var(--text-secondary); margin-bottom: 3rem; }
     </style>
+    
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "headline": "The Hot | The 7-Figure Dropshipper's AI Prompt",
+      "description": "Premium Product Hunter AI Prompts",
+      "author": { "@type": "Organization", "name": "The Hot" },
+      "publisher": { "@type": "Organization", "name": "The Hot", "url": "https://the-hot.store" }
+    }
+    </script>
 </head>
 <body>
     <div class="progress-bar" id="progressBar"></div>
@@ -55,6 +84,18 @@
         <div class="nav-title playfair">THE 7-FIGURE DROPSHIPPER'S AI PROMPT</div>
         <div style="color: var(--text-secondary); font-size: 0.85rem;">Part 1: Product Hunter</div>
     </nav>
+
+    <div class="toc-container" id="tocContainer">
+        <div class="toc-title">Contents</div>
+        <ul class="toc-list">
+            <li><a href="#introduction">Introduction</a></li>
+            <li><a href="#module1">Module 1: Winner Spotter</a></li>
+            <li><a href="#module2">Module 2: Profit Check</a></li>
+            <li><a href="#conclusion">Conclusion</a></li>
+        </ul>
+    </div>
+
+    <button class="back-to-top" id="backToTop">↑</button>
 
     <section class="cover-page">
         <div class="cover-content">
@@ -66,33 +107,146 @@
     </section>
 
     <div class="container">
-        <section class="section">
+        <section class="section" id="introduction">
             <h2 class="section-title playfair">Introduction</h2>
+            <div class="section-content">
+                <p style="margin-bottom: 1.5rem;">In the e-commerce equation, <strong>The Product is the Multiplier</strong>. You can have world-class copywriting and Hollywood-level video ads, but if your product is a "0", your result will always be zero. <strong>($1M Ads x 0 Product = $0)</strong>.</p>
+                <p style="margin-bottom: 1.5rem;"><strong>You are different. You are about to become a "Hunter."</strong> This dossier contains 5 engineered algorithms by <strong>The Hot</strong> designed to bypass the noise.</p>
+            </div>
             <div class="glass-card">
-                <p style="color: var(--text-secondary); line-height: 1.8;">
-                    In the e-commerce equation, <strong>The Product is the Multiplier</strong>. 
-                    This dossier contains 5 engineered algorithms by <strong>THE HOT</strong> designed to bypass the noise. 
-                    We find the <strong>Alpha Signals</strong> while the competition is still asleep.
-                </p>
+                <h3 style="color: var(--gold); font-size: 1.5rem; margin-bottom: 1.5rem; font-weight: 700;">How to use this kit:</h3>
+                <ul class="styled-list">
+                    <li><strong>COPY</strong> the code block.</li>
+                    <li><strong>PASTE</strong> it into ChatGPT (GPT-4 recommended).</li>
+                    <li><strong>FILL</strong> in the [Variables] with your product details.</li>
+                </ul>
             </div>
         </section>
     </div>
 
-    <section class="conclusion-page">
+    <div class="marble-divider">
+        <h2 class="module-title playfair">MODULE 1: The Winner Spotter</h2>
+    </div>
+
+    <div class="container">
+        <section class="section" id="module1">
+            <div class="glass-card">
+                <div class="card-header">
+                    <div class="card-number playfair">01</div>
+                    <h3 class="card-title playfair">The Viral Radar</h3>
+                </div>
+                <div class="card-goal"><strong>Goal:</strong> Identify products that are currently trending on social media with high impulse-buy potential.</div>
+                <div class="code-container">
+                    <div class="code-header"><span class="code-label jetbrains">PROMPT</span><button class="copy-btn" onclick="copyCode(this, 'code1')">Copy</button></div>
+                    <div class="code-block jetbrains"><pre id="code1">Role: Social Trend Analyst
+Task: Please activate your "Social Radar" and analyze current trends on TikTok and Instagram Reels to recommend 5 distinct dropshipping products with high "impulse buy" potential.
+
+Search Criteria:
+1. Visual Hook: Wow Factor within 3 seconds.
+2. Problem Solver: Solve specific annoying daily problems.
+3. Uncommon: Avoid generic items.
+
+Output Format: Provide a Table with Name, Problem Solved, Audience, and Hashtag.</pre></div>
+                </div>
+            </div>
+
+            <div class="glass-card">
+                <div class="card-header">
+                    <div class="card-number playfair">02</div>
+                    <h3 class="card-title playfair">The Niche Mixer</h3>
+                </div>
+                <div class="card-goal"><strong>Goal:</strong> Combine two different interests to create a unique, low-competition micro-niche.</div>
+                <div class="code-container">
+                    <div class="code-header"><span class="code-label jetbrains">PROMPT</span><button class="copy-btn" onclick="copyCode(this, 'code2')">Copy</button></div>
+                    <div class="code-block jetbrains"><pre id="code2">Role: Niche Market Developer
+Task: Combine [Interest A] with [Interest B] to generate 3 unique "Cross-Niche" market ideas.
+Requirement: Specific Scenario Combinations (e.g., Equipment for pet owners who workout at home).</pre></div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <div class="marble-divider">
+        <h2 class="module-title playfair">MODULE 2: The Profit Check</h2>
+    </div>
+
+    <div class="container">
+        <section class="section" id="module2">
+            <div class="glass-card">
+                <div class="card-header">
+                    <div class="card-number playfair">03</div>
+                    <h3 class="card-title playfair">The "Why They Buy" Finder</h3>
+                </div>
+                <div class="card-goal"><strong>Goal:</strong> Dig deep into consumer psychology to understand the real reason people pull out their credit cards.</div>
+                <div class="code-container">
+                    <div class="code-header"><span class="code-label jetbrains">PROMPT</span><button class="copy-btn" onclick="copyCode(this, 'code3')">Copy</button></div>
+                    <div class="code-block jetbrains"><pre id="code3">Role: Consumer Psychologist
+Input Product: [Product Name]
+Task: Analyze External Pain, Internal Fear, and Dream Outcome (Vivid "After" state).</pre></div>
+                </div>
+            </div>
+
+            <div class="glass-card">
+                <div class="card-header">
+                    <div class="card-number playfair">04</div>
+                    <h3 class="card-title playfair">The Angle Maker</h3>
+                </div>
+                <div class="card-goal"><strong>Goal:</strong> Create unique marketing angles to stand out in a saturated market.</div>
+                <div class="code-container">
+                    <div class="code-header"><span class="code-label jetbrains">PROMPT</span><button class="copy-btn" onclick="copyCode(this, 'code4')">Copy</button></div>
+                    <div class="code-block jetbrains"><pre id="code4">Role: Top Direct Response Copywriter
+Input Product: [Product Name]
+Task: Generate 3 Angles (Emotional, Fear, Logical) and one click-worthy Headline for each.</pre></div>
+                </div>
+            </div>
+
+            <div class="glass-card">
+                <div class="glass-card">
+                    <div class="card-header">
+                        <div class="card-number playfair">05</div>
+                        <h3 class="card-title playfair">The Money Math</h3>
+                    </div>
+                    <div class="card-goal"><strong>Goal:</strong> Calculate exact selling price to guarantee profit after ad costs.</div>
+                    <div class="code-container">
+                        <div class="code-header"><span class="code-label jetbrains">PROMPT</span><button class="copy-btn" onclick="copyCode(this, 'code5')">Copy</button></div>
+                        <div class="code-block jetbrains"><pre id="code5">Role: E-commerce Financial Advisor
+Input: Cost (COGS+Shipping), Estimated CPA.
+Task: Calculate Golden Selling Price, Profit Projection, and suggest Bundle Offers if margin < $15.</pre></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <section class="conclusion-page" id="conclusion">
         <div class="conclusion-content">
-            <h2 style="color: var(--gold); font-size: 3rem; font-weight: 900; margin-bottom: 20px;" class="playfair">Congratulations!</h2>
-            <p style="color: var(--text-secondary); font-size: 1.2rem; margin-bottom: 40px;">Your product is going to go viral with <strong>The Hot</strong> AI Prompts.</p>
-            <div class="cover-brand">THE HOT</div>
+            <h2 class="conclusion-title playfair">Congratulations!</h2>
+            <p class="conclusion-text">Your product is going to go viral with <strong>The Hot</strong> AI Prompts.</p>
+            <div class="cover-brand" style="margin-top: 4rem;">THE HOT</div>
         </div>
     </section>
 
     <script>
+        function copyCode(button, codeId) {
+            const codeElement = document.getElementById(codeId);
+            navigator.clipboard.writeText(codeElement.textContent).then(() => {
+                const originalText = button.textContent;
+                button.textContent = "Copied!";
+                setTimeout(() => { button.textContent = originalText; }, 2000);
+            });
+        }
         window.addEventListener('scroll', () => {
             const scrollPercent = (window.scrollY / (document.documentElement.scrollHeight - window.innerHeight)) * 100;
             document.getElementById('progressBar').style.width = scrollPercent + '%';
-            if (window.scrollY > 100) document.getElementById('stickyNav').classList.add('visible');
-            else document.getElementById('stickyNav').classList.remove('visible');
+            if (window.scrollY > 100) {
+                document.getElementById('stickyNav').classList.add('visible');
+                document.getElementById('backToTop').style.opacity = '1';
+            } else {
+                document.getElementById('stickyNav').classList.remove('visible');
+                document.getElementById('backToTop').style.opacity = '0';
+            }
         });
+        document.getElementById('backToTop').addEventListener('click', () => window.scrollTo({top: 0, behavior: 'smooth'}));
     </script>
 </body>
 </html>
